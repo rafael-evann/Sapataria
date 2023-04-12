@@ -32,7 +32,6 @@ body {
   text-align: center;
   font-size: 15pt;
 }
-
 .menu-de-navegação ul {
   display: flex;
   justify-content:start;
@@ -53,8 +52,20 @@ body {
   font-weight: 700;
   color: rgb(255, 0, 0);
 }
-@media screen {
-  .menu-de-navegação,.titulo,.subtitulo,main and (max-width: 600px){
+.secao-contato{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+.formulario-contato{
+  width: 60%;
+
+}
+
+@media screen and (max-width: 600px){
+  .menu-de-navegação,.titulo,.subtitulo,main, .formulario-contato {
     width: 100%; 
   }
   .titulo{
@@ -66,4 +77,4 @@ body {
     padding: 10px;
   }
 }
-  
+}
