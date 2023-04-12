@@ -53,3 +53,17 @@ body {
   font-weight: 700;
   color: rgb(255, 0, 0);
 }
+@media screen {
+  .menu-de-navegação,.titulo,.subtitulo,main and (max-width: 600px){
+    width: 100%; 
+  }
+  .titulo{
+    margin:10px 0;
+  } 
+
+@media screen and (max-width: 380px) {
+  .menu-de-navegação ul li{
+    padding: 10px;
+  }
+}
+  
