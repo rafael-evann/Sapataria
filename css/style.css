@@ -1,25 +1,41 @@
   
 @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap');
+ 
+:root{
+  --cor-principal: #a75207;
+}
 body {
   font-family:Raleway, sans-serif;
   color: rgb(161, 75, 75);
 }
-.titulo {
-  margin: 10px 10px 10px 10px;
-  text-align: center;
+.titulo-pagina {
+  margin: 40px auto 10px;
+  padding-left: 10px;
+  width: 80%;
   font-size: 24pt;  
   font-weight: 700;
   color: rgb(112, 42, 42);
 }
-.subtitulo{
-  margin: 10px 10px 10px 10px;
-  text-align: center;
-  font-size: 24pt;
+.sub-titulo{
+  margin: 10px auto 10px;
+  padding-left: 10px;
+  width: 80%;
+  font-size: 24pt;  
   font-weight: 700;
   color: rgb(112, 42, 42);
 }
 .tituloArtigo{
-  font-size:pt;
+  font-size:18pt;
+  margin: 10px 10px 10px 10px;
+}
+.subtituloArtigo{
+  font-size: 14pt;
+  margin: 10px 10px 10px 10px;
+}
+.paragrafo-arigo{
+  font-size: 12pt;
+  margin: 10px 10px 10px 10px;
+  line-height:1.4;
 }
 .imagensprod{
   margin: 15px 15px 15px 15px;
@@ -42,15 +58,31 @@ body {
 }
 .banner {
   width: 100%;
-  height: 600px;
+  height: 200px;
   object-fit: cover;
+  object-position: 0 10%;
 }
-.caixasobre{
+.informacoes-local{
   margin: 10px 10px 10px 10px;
   text-align: left;
   font-size: 15pt;
   font-weight: 700;
   color: rgb(255, 0, 0);
+}
+.rodape {
+  
+  background-color:var(--cor-principal);
+  color: #ffffff;
+  padding: 20px;
+}
+.img-rede-sociais {
+  width:  55px;
+  height: 55px;
+  margin: 10px 10px 10px 10px;
+}
+
+.informacoes-complementar{
+  width: 30%;
 }
 .secao-contato{
   width: 80%;
@@ -59,22 +91,42 @@ body {
   justify-content: space-between;
 
 }
+.butao-enviar{
+  display: block;
+}
 .formulario-contato{
   width: 60%;
 
 }
+.formulario-contato label{
+  width: 100%;
+  display: block;
+
+}
+.formulario-contato input, 
+.formulario-contato textarea{
+  width: 80%;
+  margin: 5px 0;
+}
+.formulario-contato textarea{
+  resize: none;
+}
 
 @media screen and (max-width: 600px){
-  .menu-de-navegação,.titulo,.subtitulo,main, .formulario-contato {
+  main,
+  .menu-de-navegação,
+  .titulo,
+  .subtitulo,
+  .formulario-contato {
     width: 100%; 
   }
-  .titulo{
+  .titulo-pagina{
     margin:10px 0;
   } 
 
 @media screen and (max-width: 380px) {
-  .menu-de-navegação ul li{
-    padding: 10px;
+  .menu-de-navegação ul li, .rodape{
+    padding: 10px 5px;
   }
 }
 }
