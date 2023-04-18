@@ -8,6 +8,7 @@ body {
   font-family:Raleway, sans-serif;
   color: rgb(161, 75, 75);
 }
+
 .titulo-pagina {
   margin: 40px auto 10px;
   padding-left: 10px;
@@ -16,6 +17,7 @@ body {
   font-weight: 700;
   color: rgb(112, 42, 42);
 }
+
 .sub-titulo{
   margin: 10px auto 10px;
   padding-left: 10px;
@@ -24,44 +26,51 @@ body {
   font-weight: 700;
   color: rgb(112, 42, 42);
 }
+
 .tituloArtigo{
   font-size:18pt;
   margin: 10px 10px 10px 10px;
 }
+
 .subtituloArtigo{
   font-size: 14pt;
   margin: 10px 10px 10px 10px;
 }
+
 .paragrafo-arigo{
   font-size: 12pt;
   margin: 10px 10px 10px 10px;
   line-height:1.4;
 }
+
 .imagensprod{
   margin: 15px 15px 15px 15px;
   text-align: center;
   font-size: 24pt;
-
 }
+
 .nomeprod{
 
   text-align: center;
   font-size: 15pt;
 }
+
 .menu-de-navegação ul {
   display: flex;
   justify-content:start;
-
 }
+
 .menu-de-navegação ul li {
   padding: 20px;
 }
+
 .banner {
   width: 100%;
   height: 200px;
   object-fit: cover;
   object-position: 0 10%;
 }
+
 .informacoes-local{
   margin: 10px 10px 10px 10px;
   text-align: left;
@@ -69,12 +78,13 @@ body {
   font-weight: 700;
   color: rgb(255, 0, 0);
 }
+
 .rodape {
-  
   background-color:var(--cor-principal);
   color: #ffffff;
   padding: 20px;
 }
+
 .img-rede-sociais {
   width:  55px;
   height: 55px;
@@ -82,36 +92,51 @@ body {
 }
 
 .informacoes-complementar{
-  width: 30%;
+  line-height: 1.2;
+  width: 33%;
 }
+
 .secao-contato{
   width: 80%;
   margin: auto;
   display: flex;
   justify-content: space-between;
+}
+
+.campo-formulario{
+  width: 100%;
+  margin: 5px 0px;
+}
+select{
+  width:calc(100% + 7px);
+}
+
+.butao-enviar{
+  width:calc(100% + 7px)
 
 }
-.butao-enviar{
-  display: block;
+
+.imagem-local{
+  
 }
+
 .formulario-contato{
   width: 60%;
-
 }
+
 .formulario-contato label{
   width: 100%;
   display: block;
+}
 
-}
-.formulario-contato input, 
-.formulario-contato textarea{
-  width: 80%;
-  margin: 5px 0;
-}
 .formulario-contato textarea{
   resize: none;
 }
 
+.horario-funcionamento{
+  font-size: 17pt;  
+  text-align:left;
+}
 @media screen and (max-width: 600px){
   main,
   .menu-de-navegação,

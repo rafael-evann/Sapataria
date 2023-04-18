@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,10 +14,11 @@
   <link rel="stylesheet" href="./css/style.css">
 
   <title>Saparia do Arnaldo - Contato</title>
-  </head>
-  <body>
-    <header>
-        
+</head>
+
+<body>
+  <header>
+
     <nav class="menu-de-navegação">
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -27,66 +29,71 @@
     </nav>
 
     <h1 class="titulo-pagina">Contato</h1>
-    <h2 class="sub-titulo">Entre em contato conosco</h2> 
-    </header>
-      
-      <main>
-        <section class="secao-contato">
+    <h2 class="sub-titulo">Entre em contato conosco</h2>
+  </header>
 
-          <form class="formulario-contato"action="" method="">
-            <label for="nomecompleto">Nome completo:</label>
-            <input type="text" name="nomecompleto" />
+  <main>
+    <section class="secao-contato">
 
-            <label for="email">E-mail:</label>
-            <input type="email" name="email" />
-    
-            <label for="assunto">Assunto:</label>
-            <input type="assunto" name="assunto">  
+      <form class="formulario-contato" action="" method="">
 
-            <label for="mensagem"> Messagem:</label>
-            <textarea name="mensagem"></textarea>
+        <label for="nomecompleto">Nome completo:</label>
+        <input class="campo-formulario" type="text" id="nomecompleto" name="nomecompleto" autofocus required>
 
-            <label for="telefone">Telefone:</label>
-            <input type="telefone" name="telefone">
-            
-            <button class="butao-enviar">Enviara sua mensagem</button>
-          </form>
+        <label for="email">E-mail:</label>
+        <input class="campo-formulario" type="email" id="email" name="email">
 
-          <aside class="informacoes-complementar">
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" name="assunto" required>
+          <option value="Prazo de entrega">Prazo de entrega</option>
+          <option value="Orçamento">Orçamento</option>
+          <option value="Pagamento">Pagamento</option>
+          <option value="Outro">Outro</option>
+        </select>
 
-            <div class="imagem-local">
-              <img src="./Imagens/imgfrente.jpg" alt="imagem-local">
-            </div>
+        <label for="mensagem"> Messagem:</label>
+        <textarea class="campo-formulario" name="mensagem"></textarea>
 
-            <div class="informacoes-local">
-               
-              <div class="horario-funcionamento">
-                <h3>horario de funcionamento</h3>
-                <p>De segunda a sexta</p>
-                <p>Das 08h ás 18h</p>
-                <p>sabados</p>
-                <p>Das 8h ás 12h</p>
-              </div>
+        <label for="telefone">Telefone:</label>
+        <input class="campo-formulario" type="telefone" name="telefone">
 
-              <div class="links-socias">
-                <a href="#instagram">
-                  <img src="./Imagens/img-instagram.png"  alt="Icone do Instagram" class= "img-rede-sociais">
-                </a>
+        <button class="butao-enviar">Enviara sua mensagem</button>
+      </form>
 
-                <a href="#facebook">
-                  <img src="./Imagens/img-facebook.png"  alt="Icone do Facebook" class="img-rede-sociais">
-                </a>
-              </div>
-            </div>
-          </aside>
-      </main>
-          <footer class="rodape">
-          <address>
-            <p>Jd. Santa Adelia</p>
-            <p>Sao Paulo-SP</p>  
-            <p>Rua forte do Leme</p>
-            <p>Telofone (11) 3371-1279</p>
-          </address>
-  </body>
-  
+      <aside class="informacoes-complementar">
+
+        <div class="imagem-local">
+          <img src="./Imagens/imgfrente.jpg" alt="imagem-local">
+        </div>
+
+        <div class="informacoes-local">
+          <div class="horario-funcionamento">
+            <h3>Horario de funcionamento</h3>
+            <p>De segunda a sexta</p>
+            <p>Das 08h ás 18h</p>
+            <p>sabados</p>
+            <p>Das 8h ás 12h</p>
+          </div>
+
+          <div class="links-socias">
+            <a href="#instagram">
+              <img src="./Imagens/img-instagram.png" alt="Icone do Instagram" class="img-rede-sociais">
+            </a>
+
+            <a href="#facebook">
+              <img src="./Imagens/img-facebook.png" alt="Icone do Facebook" class="img-rede-sociais">
+            </a>
+          </div>
+        </div>
+      </aside>
+  </main>
+  <footer class="rodape">
+    <address>
+      <p>Jd. Santa Adelia</p>
+      <p>Sao Paulo-SP</p>
+      <p>Rua forte do Leme</p>
+      <p>Telofone (11) 3371-1279</p>
+    </address>
+</body>
+
 </html>
