@@ -9,7 +9,7 @@ body {
   color: rgb(161, 75, 75);
 }
 
-.titulo-pagina {
+.page-title {
   margin: 40px auto 10px;
   padding-left: 10px;
   width: 80%;
@@ -18,7 +18,7 @@ body {
   color: rgb(112, 42, 42);
 }
 
-.sub-titulo{
+.page-subtitle{
   margin: 10px auto 10px;
   padding-left: 10px;
   width: 80%;
@@ -26,7 +26,7 @@ body {
   font-weight: 700;
   color: rgb(112, 42, 42);
 }
-.arnaldo-trabalhando{
+.img-arnaldo-working{
   margin: 10px auto 10px;
   padding-left: px;
   width: 50%;
@@ -41,20 +41,14 @@ body {
   color: var(--cor-principal) solid 2px;
 }
 
-.tituloArtigo{
+.title-Article{
   font-size:18pt;
   margin: 10px 10px 10px 10px;
 }
 
-.subtituloArtigo{
+.article-subtitle{
   font-size: 14pt;
   margin: 10px 10px 10px 10px;
-}
-
-.paragrafo-arigo{
-  font-size: 12pt;
-  margin: 10px 10px 10px 10px;
-  line-height:1.4;
 }
 
 .imagensprod{
@@ -67,15 +61,13 @@ body {
 
   text-align: center;
   font-size: 15pt;
+  display: flex;
 }
 
 .menu-de-navegação ul {
   background-color: #967F71;
   display: flex;
-  justify-content:start;
-  
-
-  
+  justify-content:start; 
 }
 .menu-de-navegação a{
   text-decoration: none;
@@ -99,7 +91,7 @@ body {
   object-position: 0 10%;
 }
 
-.informacoes-local{
+.location-information{
   margin: 10px 10px 10px 10px;
   text-align: left;
   font-size: 15pt;
@@ -107,13 +99,13 @@ body {
   color: rgb(255, 0, 0);
 }
 
-.rodape {
+.baseboard{
   background-color:var(--cor-principal);
   color: #ffffff;
   padding: 20px;
 }
 
-.img-rede-sociais {
+.img-networks {
   width:  55px;
   height: 55px;
   margin: 10px 10px 10px 10px;
@@ -161,7 +153,10 @@ select{
   resize: none;
 }
 .icone-redes-socias{
-  width: 45;
+  width: 35;
+  display: flex;
+  height: 35;
+
 }
 
 .horario-funcionamento{
