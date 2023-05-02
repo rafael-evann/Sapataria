@@ -3,10 +3,12 @@
  
 :root{
   --cor-principal: #967F71;
+  --cormenu-sublinado:rgb(255, 255, 255);
+  --corbaseboard:#967F71;
 }
 body {
   font-family:Raleway, sans-serif;
-  color: rgb(161, 75, 75);
+  color: var(--cor-principal); 
 }
 
 .page-title {
@@ -15,7 +17,7 @@ body {
   width: 80%;
   font-size: 24pt;  
   font-weight: 700;
-  color: rgb(112, 42, 42);
+  color:var(--cor-principal);
 }
 
 .page-subtitle{
@@ -24,7 +26,7 @@ body {
   width: 80%;
   font-size: 12pt;  
   font-weight: 700;
-  color: rgb(112, 42, 42);
+  color:var(--cor-principal);
 }
 .img-arnaldo-working{
   margin: 10px auto 10px;
@@ -33,19 +35,23 @@ body {
 }
 
 .navbar a:hover {
-  border-bottom: var(--cor-principal) solid 2px;
+  border-bottom: var(--cormenu-sublinado) solid 2px;
+  
 }
 .navbar a {
   text-decoration: none;
   padding-bottom: 5px;
-  color: var(--cor-principal) solid 2px;
+  color: #ffffff;
 }
 
 .title-Article{
   font-size:18pt;
   margin: 10px 10px 10px 10px;
 }
-
+p.intro::first-line{
+  color: var(--cor-principal);
+  font-size:200%;
+}
 .article-subtitle{
   font-size: 14pt;
   margin: 10px 10px 10px 10px;
@@ -65,7 +71,7 @@ body {
 }
 
 .menu-de-navegação ul {
-  background-color: #967F71;
+  background-color: var(--cor-principal);
   display: flex;
   justify-content:start; 
 }
@@ -96,11 +102,11 @@ body {
   text-align: left;
   font-size: 15pt;
   font-weight: 700;
-  color: rgb(255, 0, 0);
+  color: var(--cor-principal);
 }
 
 .baseboard{
-  background-color:var(--cor-principal);
+  background-color:var(--corbaseboard);
   color: #ffffff;
   padding: 20px;
 }
@@ -120,11 +126,11 @@ body {
   width: 80%;
   margin: auto;
   display: flex;
-  color: #000000;
+  color: var(--cor-principal);
   justify-content: space-between;
 }
 .subtitulo-horario{
-  color: rgb(27, 25, 23);
+  color: var(--cor-principal);
 }
 
 .campo-formulario{
@@ -161,7 +167,7 @@ select{
 
 .horario-funcionamento{
   font-size: 17pt; 
-  color: #000000; 
+  color: var(--cor-principal); 
   text-align:left;
 }
 @media screen and (max-width: 600px){
